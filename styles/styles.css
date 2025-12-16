@@ -9,7 +9,7 @@
 }
 body {
       height: 100vh;
-      background-image: url(/images/blue.jpg.jpg);
+      background-image: url(/images/blue.jpg);
       background-size: cover;
       background-position: no-repeat center;
       padding: 50px 5%;
@@ -182,7 +182,7 @@ header{
       width: 100%;
       object-fit: cover;
 }
-.about{
+.AboutMe{
       display: flex;
       align-items: center;
       height: 100%;
@@ -191,7 +191,7 @@ header{
       color: white;
       animation-delay: 1.5s;
 }
-.about-detail h1{
+.AboutMe-detail h1{
       font-size: 55px;
       line-height: 1;
 }
@@ -206,7 +206,7 @@ header{
 
 
 
-#about-Me{
+#AboutMe{
       display: flex;
       align-items: center;
       justify-content: center;
@@ -232,7 +232,7 @@ header{
       
       
 /* } */
-.about-img .img-box{
+.AboutMe-img .img-box{
       position: relative;
       width: 20vw;
       height: 30vw;
@@ -242,7 +242,7 @@ header{
       overflow: hidden;
       padding-top: 20px;
 }
-.about-img .img-box img{
+.AboutMe-img .img-box img{
       position: absolute;
       top: 30px;
       display: block;
@@ -250,7 +250,7 @@ header{
       object-fit: cover;
       
 }
-.about-box h1{
+.AboutMe-box h1{
       font-size: 2em;
       color: springgreen;
       float: right;
@@ -258,7 +258,7 @@ header{
       padding-top: 30px;
       text-align: center;
 
-}.about-box p{
+}.AboutMe-box p{
       color: white;
       opacity: 0.8;
       float: right;
@@ -280,14 +280,14 @@ header{
       animation: zoom-in 1s ease forwards;
 }
 
-#skills{
+#Skills{
       color: springgreen;
       display: flex;
       text-align: center;
       gap: 10em;
       padding-top: 10px;
 }
-.skills ol{
+.Skills ol{
       font-size: 1.1em;
       font-weight: 500;
       display: flex;
@@ -297,7 +297,7 @@ header{
       align-items: center;
       padding-top: 5px;
 }
-.skills ol li span{
+.Skills ol li span{
       display: flex;
       align-items: center;
       gap: 0.5em;
@@ -306,18 +306,18 @@ header{
       text-align: center;
 
 }
-.skills ol li span:hover{
+.Skills ol li span:hover{
       transform: translateX(10px);
       
 }
-.skills ol li i{
+.Skills ol li i{
       font-size: 1.2em;
 
 }
-.about-box h2{
+.AboutMe-box h2{
       font-size: 2.5em;
 }
-.skills ul{
+.Skills ul{
       font-size: 0.8em;
       font-weight: 400;
       display: flex;
@@ -327,7 +327,7 @@ header{
       align-items: right;
       margin-bottom: 20px;
 
-}.skills ul{
+}.Skills ul{
       color: white;
       opacity: 0.8;
       float: left;
@@ -337,14 +337,14 @@ header{
 
 
 }
-#projects{
+#Projects{
       padding: 30px 3% 0;
       color: springgreen;
       animation-delay: 1.5s;
       text-align: center;
 
 }
-.projects-container{
+.Projects-container{
       display: grid;
       grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
       gap: 1em;
@@ -381,7 +381,7 @@ header{
 .box h2{
       font-size: 0.9em;
 }
-#contact{
+#Contact{
       font-size: normal;
       color: springgreen;
       text-align: baseline;
@@ -390,7 +390,7 @@ header{
 
 }
 
-.contact-container{
+.Contact-container{
       display: flex;
       align-items: left;
       justify-content: left;
